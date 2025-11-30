@@ -379,17 +379,12 @@ class Task extends Entity {
 #### Usage Examples
 
 ```javascript
-// Create dengan semua parameters
 const task1 = new Task(1, "Fix bug", 1, 5);
-
-// Create dengan partial parameters
 const task2 = new Task(null, "New task", 1, 1);
-
-// Create minimal
-const task3 = new Task(); // All defaults
+const task3 = new Task();
 ```
 
-#### Repository Methods - Flexible Parameters
+#### Repotory Methods - Flexible Parameters
 
 ```javascript
 class BoardRepository extends IRepository {

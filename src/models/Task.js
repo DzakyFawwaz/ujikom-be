@@ -560,6 +560,5 @@ class TaskRepository extends IRepository {
   }
 }
 
-// Export classes
-module.exports = Task;
-module.exports.TaskRepository = TaskRepository;
+// Export both class dan repository untuk flexibility
+module.exports = { Task, TaskRepository };
